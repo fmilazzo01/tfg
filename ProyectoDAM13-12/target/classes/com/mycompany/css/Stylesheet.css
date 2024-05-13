@@ -1,0 +1,233 @@
+
+
+
+
+
+.borde {
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-background-color: white;
+    -fx-border-width: 1;
+}
+
+
+.bordeDashBoard {
+    -fx-background-radius: 15;
+    -fx-border-radius: 3;
+    -fx-background-color: white;
+    -fx-border-width: 1;
+}
+
+.textoMenu {
+    -fx-text-fill:  #a9a9a9;
+}
+
+
+.panelMenu {
+    -fx-background-color: transparent;
+}
+
+.panelMenu:hover {
+    -fx-background-color: #383838;
+}
+
+
+
+    
+
+
+/* -------------------------TEXT FIELD---------------------------- */
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #464646;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px; /* Esto le da esquinas ligeramente redondeadas */
+    
+    -fx-font-size: 14px; 
+    -fx-text-fill: white; /* Color del texto */
+    -fx-prompt-text-fill: #B0B0B0; 
+    -fx-focus-color: #00BFFF; /* Color del borde cuando el textfield este enfocado */
+    -fx-faint-focus-color: transparent; /* Color de resplandor cuando el textfield este enfocado */
+}
+
+.text-field:hover {
+    -fx-border-color: #606060; /* Cambia el color del borde cuando se pasa el mouse sobre el textfield */
+}
+
+.text-field:focused {
+    -fx-border-color: #00BFFF; /* Cambia el color del borde cuando el textfield está enfocado */
+}
+/* -------------------------TEXT FIELD---------------------------- */
+
+
+/* -------------------------DATE PICKER---------------------------- */
+
+* {
+	-fx-primary-color: #007acc;
+	-fx-secondary-color: #4B6EAF;
+	-fx-light-grey-color: #d1d1d1;
+	-fx-focus-color: -fx-secondary-color;
+}
+
+.date-picker {
+    -fx-background-color: transparent;
+    -fx-border-color: #464646;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #B0B0B0;
+    -fx-focus-color: #00BFFF;
+    -fx-faint-focus-color: transparent;
+}
+
+.date-picker:hover {
+    -fx-border-color: #606060;
+}
+
+.date-picker:focused {
+    -fx-border-color: #00BFFF;
+}
+
+.date-picker .arrow-button {
+	-fx-background-color: -fx-primary-color;
+	-fx-background-radius: 0;
+}
+
+.date-picker .arrow-button:hover {
+	-fx-background-color: -fx-secondary-color;
+}
+
+.date-picker .arrow-button .arrow {
+	-fx-background-color: white;
+}
+
+.date-picker .cell {
+	-fx-background-color: white;
+}
+
+.date-picker .cell:hover {
+	-fx-background-color: -fx-light-grey-color;
+}
+
+.date-picker .cell:focused {
+	-fx-background-color: -fx-light-grey-color;
+}
+
+.date-picker .selected {
+	-fx-background-color: -fx-primary-color;
+	-fx-text-fill: white;
+}
+
+.date-picker .selected:focused {
+	-fx-background-color: -fx-primary-color;
+	-fx-text-fill: white;
+}
+
+.date-picker-popup  {
+	-fx-border-color: transparent;
+}
+
+.date-picker-popup .month-year-pane {
+	-fx-background-color: -fx-primary-color;
+}
+
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: white;
+}
+
+.date-picker-popup .week-number-cell {
+	-fx-text-fill: -fx-secondary-color;
+}
+
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+	-fx-background-color: white;
+}
+
+/* -------------------------DATE PICKER---------------------------- */
+
+/* -------------------------BUTTON 2---------------------------- */
+
+.button2 {
+    -fx-background-color: transparent;
+    -fx-border-color: #464646;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-focus-color: #00BFFF;
+    -fx-faint-focus-color: transparent;
+}
+
+.button2:hover {
+    -fx-border-color: #606060;
+}
+
+.button2:focused {
+    -fx-border-color: #00BFFF;
+}
+
+.button2:pressed {
+    -fx-background-color: #00BFFF;
+    -fx-text-fill: white;
+}
+
+/* -------------------------BUTTON 2---------------------------- */
+
+/* -------------------------TABLEVIEW---------------------------- */
+.table-view {
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: white;
+}
+
+.table-row-cell {
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #007acc;
+    -fx-text-fill: white;
+}
+
+.table-column {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #464646;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+}
+
+.table-column:hover {
+    -fx-background-color: #606060;
+}
+
+.table-header-row {
+    -fx-background-color: #007acc;
+    -fx-text-fill: white;
+}
+
+.table-header-background {
+    -fx-background-color: transparent;
+}
+
+
+
+
+.table-view .filler {
+    -fx-background-color: transparent; 
+    -fx-background-insets: 0; 
+}
+
+
+/* Estilos para la columna de la tabla de clientes */
+.cliente-columna .label {
+    -fx-text-fill: #007acc; /* Color de texto para la tabla de clientes */
+}
+
+/* Estilos para la columna de la tabla de atrasados */
+.atrasados-columna .label {
+    -fx-text-fill: #ff0000; /* Color de texto para la tabla de atrasados */
+}
