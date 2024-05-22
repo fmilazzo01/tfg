@@ -1,0 +1,8 @@
+com\mycompany\proyectodam\HomeController.class
+com\mycompany\proyectodam\App.class
+com\mycompany\proyectodam\LoginController.class
+com\mycompany\proyectodam\SecondaryController.class
+module-info.class
+com\mycompany\bd\clientes.class
+com\mycompany\proyectodam\AlertUtils.class
+com\mycompany\bd\connect.class
